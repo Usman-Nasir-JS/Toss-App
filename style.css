@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.head1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(0, 233, 0);
+    /* background-color: rgb(0, 233, 0); */
+    /* border: 5px dashed ; */
+}
+
+.btn-set{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    gap: 100px;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-first{
+    background-color: lightblue;
+    border: 2px dotted black;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.btn-second{
+        background-color: lightblue;
+        border: 2px dotted black;
+        border-radius: 3px;
+        padding: 10px;
+}
+
+.center{
+    padding-left: 0.5%;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+p{
+    text-align: center;
+    color: red;
+}
