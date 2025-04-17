@@ -1,21 +1,22 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .head1{
     text-align: center;
     padding: 20px;
-    color: rgb(0, 233, 0);
-    /* background-color: rgb(0, 233, 0); */
+    color: gold;
+    background-color: black;
     /* border: 5px dashed ; */
 }
 
 .btn-set{
     display: flex;
     justify-content: center;
-    margin: 50px;
-    gap: 100px;
+    margin: 26px 50px;
+    gap: 90px;
+    cursor: pointer;
 }
 
 .result{
@@ -30,15 +31,17 @@ div{
 }
 
 .btn-first{
-    background-color: lightblue;
-    border: 2px dotted black;
+    background-color: black;
+    border: 2px dotted whitesmoke;
+    color: gold ;
     border-radius: 3px;
     padding: 10px;
 }
 
 .btn-second{
-        background-color: lightblue;
-        border: 2px dotted black;
+        background-color: black;
+        border: 2px dotted whitesmoke;
+        color: gold ;
         border-radius: 3px;
         padding: 10px;
 }
@@ -54,4 +57,6 @@ div{
 p{
     text-align: center;
     color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
 }
